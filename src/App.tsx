@@ -12,6 +12,7 @@ import {
   Phone,
   Mail,
   MapPin,
+  GraduationCap
 } from "lucide-react";
 import DonationForm from "./components/DonationForm";
 
@@ -51,8 +52,15 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-white to-purple-100 rounded-full flex items-center justify-center mr-3">
+              <img 
+                src="/images/logo1.png" 
+                alt="Laalim Logo" 
+                className="w-10 h-10 object-contain"
+              />
+              </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">
-                EmpowerHer
+                Laalim
               </span>
             </div>
 
