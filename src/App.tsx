@@ -33,7 +33,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">
-                EmpowerHer
+                Laalim
               </span>
             </div>
             
@@ -398,7 +398,7 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                EmpowerHer
+                Laalim
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Plateforme d'accompagnement, de mentorat et de suivi des jeunes filles leaders.
@@ -455,7 +455,7 @@ function App() {
           
           <div className="border-t border-gray-700 pt-8 text-center">
             <p className="text-gray-300">
-              © 2025 EmpowerHer Platform. Tous droits réservés. | Projet Hackathon - Accompagnement Jeunes Filles Leaders
+              © 2025 Laalim Platform. Tous droits réservés. | Projet Hackathon - Accompagnement Jeunes Filles Leaders
             </p>
           </div>
         </div>
