@@ -166,6 +166,11 @@ function App() {
 
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 text-white pt-16">
+        <img 
+                src="/images/logo1.png" 
+                alt="Laalim Logo" 
+                className="w-80 h-80 object-contain mx-auto block"
+              />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Plateforme d'Accompagnement, de Mentorat et de Suivi
           </h1>
@@ -545,6 +550,11 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              <img 
+                src="/images/logo1.png" 
+                alt="Laalim Logo" 
+                className="w-10 h-10 object-contain"
+              />
                 Laalim
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6">
