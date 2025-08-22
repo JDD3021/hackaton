@@ -89,7 +89,7 @@ function App() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-pink-500 to-yellow-400"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-purple-500 to-yellow-400"></div>
         
         {/* Hero Image */}
         <div className="absolute inset-0 opacity-20">
@@ -235,7 +235,7 @@ function App() {
         {/* Background Image */}
         <div className="absolute inset-0 opacity-5">
           <img
-            src="/images/beneficiaires-collegiennes.jpg"
+            src="/images/impact-celebration.jpg"
             alt="Success celebration"
             className="w-full h-full object-cover"
           />
@@ -304,19 +304,19 @@ function App() {
               {
                 title: "Lycéennes", 
                 description: "Élèves du lycée (2nde - Terminale) préparant leur orientation",
-                image: "images/beneficiaires-collegiennes.jpg",
+                image: "images/beneficiaires-lyceennes.jpg",
                 color: "pink"
               },
               {
                 title: "Étudiantes",
                 description: "Étudiantes universitaires poursuivant leurs études supérieures", 
-                image: "images/beneficiaires-collegiennes.jpg",
+                image: "images/beneficiaires-etudiantes.jpg",
                 color: "blue"
               },
               {
                 title: "Jeunes Diplômées",
                 description: "Diplômées en recherche de leur premier emploi",
-                image: "images/beneficiaires-collegiennes.jpg", 
+                image: "images/beneficiaires-diplomees.jpg", 
                 color: "yellow"
               }
             ].map((beneficiary, index) => (
@@ -422,7 +422,7 @@ function App() {
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-purple-400" />
-                  <span>contact@dzikoli-platform.org</span>
+                  <span>contact@laalim-platform.org</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-purple-400" />
